@@ -306,7 +306,7 @@ df_test_predictions_sf.index=df_sf.index[-24:]
 
 fig=make_subplots(
         specs=[[{"secondary_y": True}]])
-print(fig.layout)
+# print(fig.layout)
 fig.update_layout(xaxis2= {'anchor': 'y', 'overlaying': 'x', 'side': 'top'},
                    yaxis_domain=[0, 0.94]);
 
